@@ -22,12 +22,7 @@
             >
           </li>
           <li>
-            <a
-              href="#"
-              class="header__lang-link header__lang-link_active"
-              lang="en"
-              >EN</a
-            >
+            <a href="#" class="header__lang-link" lang="en">EN</a>
           </li>
         </ul>
       </header>
@@ -63,26 +58,34 @@
           </p>
           <ul class="intro__list">
             <li class="intro__list-item">
-              <span class="intro__list-item_bold">Часовых поясов</span> 11
+              <span class="intro__list-item intro__list-item_bold"
+                >Часовых поясов</span
+              >
+              11
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item_bold"
+              <span class="intro__list-item intro__list-item_bold"
                 >Объектов природного наследия ЮНЕСКО</span
               >
               12
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item_bold"
+              <span class="intro__list-item intro__list-item_bold"
                 >Объектов культурного наследия ЮНЕСКО</span
               >
               16
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item_bold">Природных заповедников</span>
+              <span class="intro__list-item intro__list-item_bold"
+                >Природных заповедников</span
+              >
               105
             </li>
             <li class="intro__list-item">
-              <span class="intro__list-item_bold">Аэропортов</span> 241
+              <span class="intro__list-item intro__list-item_bold"
+                >Аэропортов</span
+              >
+              241
             </li>
           </ul>
         </section>
@@ -150,14 +153,14 @@
         </section>
         <section class="places" aria-label="раздел места">
           <article class="place">
-            <p class="place__title">Куршская коса</p>
+            <h3 class="place__title">Куршская коса</h3>
             <img
               src="./images/place-kosa.jpg"
               alt="коса"
               class="place__image"
             />
-            <div class="place__website place__website-odd">
-              <p class="place__url-heading">url</p>
+            <div class="place__website-odd">
+              <span class="place__url-heading">url</span>
               <a
                 href=" http://park-kosa.ru"
                 class="place__link"
@@ -184,14 +187,14 @@
             </div>
           </article>
           <article class="place">
-            <p class="place__title">Кольский</p>
+            <h3 class="place__title">Кольский</h3>
             <img
               src="./images/place-kolsky.jpg"
               alt="кольский"
               class="place__image"
             />
             <div class="place__website">
-              <p class="place__url-heading">url</p>
+              <span class="place__url-heading">url</span>
               <a
                 href="
               https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -219,14 +222,14 @@
             </div>
           </article>
           <article class="place">
-            <p class="place__title">Алтай</p>
+            <h3 class="place__title">Алтай</h3>
             <img
               src="./images/place-altai.jpg"
               alt="алтай"
               class="place__image"
             />
             <div class="place__website">
-              <p class="place__url-heading">url</p>
+              <span class="place__url-heading">url</span>
               <a
                 href="
                 https://www.youtube.com/watch?v=7ZEsoV7kWAQ
@@ -255,14 +258,14 @@
             </div>
           </article>
           <article class="place">
-            <p class="place__title">Зимний Байкал</p>
+            <h3 class="place__title">Зимний Байкал</h3>
             <img
               src="./images/place-winter-baikal.jpg"
               alt="байкал зимой"
               class="place__image"
             />
-            <div class="place__website place__website-odd">
-              <p class="place__url-heading">url</p>
+            <div class="place__website-odd">
+              <span class="place__url-heading">url</span>
               <a
                 href="
                 https://vk.com/baikalmile
@@ -290,14 +293,14 @@
             </div>
           </article>
           <article class="place">
-            <p class="place__title">Карелия</p>
+            <h3 class="place__title">Карелия</h3>
             <img
               src="./images/place-karelia.jpg"
               alt="карелия"
               class="place__image"
             />
             <div class="place__website">
-              <p class="place__url-heading">url</p>
+              <span class="place__url-heading">url</span>
               <a
                 href="
                 http://vodlozero.ru/
@@ -324,8 +327,14 @@
           </article>
         </section>
         <section class="cover">
-          <a href="#" class="cover__overlay">
-            <p class="cover__title">До Байкала «на собаках»</p>
+          <a
+            href="
+          https://stampsy.com/na-elektrichkakh-do-baikala"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cover__overlay"
+          >
+            <h3 class="cover__title">До Байкала «на собаках»</h3>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
               Байкала на электричках.
@@ -333,61 +342,63 @@
           </a>
         </section>
       </main>
-      <nav class="footer" aria-label="подвал">
-        <ul class="footer__links">
-          <li>
-            <a
-              class="footer__link"
-              href="
+      <footer class="footer" aria-label="подвал">
+        <nav>
+          <ul class="footer__links">
+            <li>
+              <a
+                class="footer__link"
+                href="
             https://yandex.ru/maps"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Карты</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="
+                target="_blank"
+                rel="noopener noreferrer"
+                >Карты</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="
             https://yandex.ru/pogoda"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Погода</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="
+                target="_blank"
+                rel="noopener noreferrer"
+                >Погода</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="
             https://rasp.yandex.ru"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Расписание</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="
+                target="_blank"
+                rel="noopener noreferrer"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="
             https://calendar.yandex.ru"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Календарь</a
-            >
-          </li>
-          <li>
-            <a
-              class="footer__link"
-              href="
+                target="_blank"
+                rel="noopener noreferrer"
+                >Календарь</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer__link"
+                href="
             https://travel.yandex.ru"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
+                target="_blank"
+                rel="noopener noreferrer"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
         <p class="footer__copyright">&copy; 2023. Ахмед</p>
-      </nav>
+      </footer>
     </div>
   </body>
 </html>
