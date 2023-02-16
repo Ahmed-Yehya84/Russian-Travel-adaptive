@@ -1,5 +1,5 @@
 .lead__image {
-  max-width: 984px;
+  max-width: 100%;
   margin-bottom: 8px;
   display: block;
   object-fit: cover;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
   .lead__image {
-    max-width: 768px;
+    max-width: 100%;
   }
 }
 
