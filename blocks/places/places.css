@@ -17,15 +17,16 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px) {
-  .places {
-    max-width: 100%;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .places {
     max-width: 100%;
     margin: 0 0 66px 0;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .places {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -45,3 +45,15 @@
     margin-bottom: 0;
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .place__paragraph {
+    min-width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 927px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}
