@@ -10,4 +10,4 @@ Russian travel - это веб-страница, которая знакомит
 
 ### скриншот проекта
 
-![alt text](./images/screencapture-127-0-0-1-5501-index-html-2023-02-04-18_45_02.png)
+<a href="https://ibb.co/HYGNrtb"><img src="https://i.ibb.co/7VrgGnZ/travel-russia.png" alt="travel-russia" border="0"></a>
